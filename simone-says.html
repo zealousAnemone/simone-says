@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+	<script src="simone-says.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="simone-says.css">
+	<title>Simone Says</title>
+</head>
+<body>
+<audio id="wrong"><source src="http://www.freesfx.co.uk/rx2/mp3s/9/11110_1393961399.mp3" type="audio/mp3"></audio>
+<audio id="green-sound"><source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" type="audio/mp3"></audio>
+<audio id="red-sound"><source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" type="audio/mp3"></audio>
+<audio id="yellow-sound"><source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" type='audio/mp3'></audio>
+<audio id="blue-sound"><source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" type="audio/mp3"></audio>
+<div class="container">
+  <h1>Simone Says</h1>
+  <h3>FreeCodeCamp</h3>
+  <div id="message"></div>
+<button id="green" value=1 class='color-btn'></button>
+<button id="red" value=2 class='color-btn'></button></br>
+<button id="yellow" value=3 class='color-btn'></button>
+  <button id="blue" value=4 class='color-btn'></button></br>
+<button class="btn btn-default" id="start">Start</button>
+<button class="btn btn-light" id="reset">Reset</button>
+  <button class="btn btn-primary" id="strict">Regular</button>
+<p>Created & coded by <a href="https://codepen.io/veewren" target="_blank">V.Wren</p>
+</div>
+</body>
+</html>
